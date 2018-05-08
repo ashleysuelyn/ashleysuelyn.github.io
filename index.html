@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To-do List</title>
+	<link rel="stylesheet" href="todoliststyle.css" />
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+</head>
+
+<body>
+
+	<h1>Get Shit Done</h1>
+	<h4>Click on the item you have completed to remove it!</h4>
+
+	<input onclick= "makeSure()" type="text" id="myText" onkeypress="myEnter()" value="Shit To Do">
+
+	<button onclick = "myShitToDo()">Add to my list</button>
+
+	<p id="list">
+		<ul id="toDoList">
+		</ul>
+	</p>
+
+	<button onclick = " myEraser() ">Clear my list</button>
+
+
+	<script src="todolistscript.js"></script>
+</body>
+
+
+</html>
